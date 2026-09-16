@@ -33,7 +33,7 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast");
 
-app.MapGet("/hello", () => "Hello from the Jenkins pipeline!");
+app.MapGet("/hello", () => "Hello from the Jenkins/Docker pipeline!");
 
 app.Run();
 
